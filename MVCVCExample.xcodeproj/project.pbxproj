@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851CB80A15065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851CB80915065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m */; };
 		859690FA15064B12001CD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690F915064B12001CD82E /* UIKit.framework */; };
 		859690FC15064B12001CD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690FB15064B12001CD82E /* Foundation.framework */; };
 		859690FE15064B12001CD82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690FD15064B12001CD82E /* CoreGraphics.framework */; };
@@ -16,24 +17,43 @@
 		8596910D15064B12001CD82E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8596910B15064B12001CD82E /* MainStoryboard.storyboard */; };
 		8596911015064B12001CD82E /* NSCEMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596910F15064B12001CD82E /* NSCEMasterViewController.m */; };
 		8596911315064B12001CD82E /* NSCEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596911215064B12001CD82E /* NSCEDetailViewController.m */; };
+		8596911B15064B48001CD82E /* NSCEMovieService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596911A15064B48001CD82E /* NSCEMovieService.m */; };
+		8596911E15064B59001CD82E /* NSCEMockMovieService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596911D15064B59001CD82E /* NSCEMockMovieService.m */; };
+		8596912515064BBA001CD82E /* NSCEMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596912415064BBA001CD82E /* NSCEMovie.m */; };
+		8596912815064BD0001CD82E /* NSCEGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596912715064BD0001CD82E /* NSCEGenre.m */; };
+		8596912B15064BE0001CD82E /* NSCEActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596912A15064BE0001CD82E /* NSCEActor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851CB8071506511F001A59F7 /* SynthesizeSingletonARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingletonARC.h; sourceTree = "<group>"; };
+		851CB80815065B51001A59F7 /* NSCEGenreTableViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEGenreTableViewControllerViewController.h; sourceTree = "<group>"; };
+		851CB80915065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEGenreTableViewControllerViewController.m; sourceTree = "<group>"; };
 		859690F515064B12001CD82E /* MVCVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859690F915064B12001CD82E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		859690FB15064B12001CD82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		859690FD15064B12001CD82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8596910115064B12001CD82E /* MVCVCExample-Info.plist */ = {isa = PBXFileReference; path = "MVCVCExample-Info.plist"; sourceTree = "<group>"; };
+		8596910115064B12001CD82E /* MVCVCExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCVCExample-Info.plist"; sourceTree = "<group>"; };
 		8596910315064B12001CD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8596910515064B12001CD82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8596910715064B12001CD82E /* MVCVCExample-Prefix.pch */ = {isa = PBXFileReference; path = "MVCVCExample-Prefix.pch"; sourceTree = "<group>"; };
-		8596910815064B12001CD82E /* NSCEAppDelegate.h */ = {isa = PBXFileReference; path = NSCEAppDelegate.h; sourceTree = "<group>"; };
+		8596910715064B12001CD82E /* MVCVCExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVCVCExample-Prefix.pch"; sourceTree = "<group>"; };
+		8596910815064B12001CD82E /* NSCEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCEAppDelegate.h; sourceTree = "<group>"; };
 		8596910915064B12001CD82E /* NSCEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCEAppDelegate.m; sourceTree = "<group>"; };
 		8596910C15064B12001CD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8596910E15064B12001CD82E /* NSCEMasterViewController.h */ = {isa = PBXFileReference; path = NSCEMasterViewController.h; sourceTree = "<group>"; };
+		8596910E15064B12001CD82E /* NSCEMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCEMasterViewController.h; sourceTree = "<group>"; };
 		8596910F15064B12001CD82E /* NSCEMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCEMasterViewController.m; sourceTree = "<group>"; };
-		8596911115064B12001CD82E /* NSCEDetailViewController.h */ = {isa = PBXFileReference; path = NSCEDetailViewController.h; sourceTree = "<group>"; };
+		8596911115064B12001CD82E /* NSCEDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCEDetailViewController.h; sourceTree = "<group>"; };
 		8596911215064B12001CD82E /* NSCEDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCEDetailViewController.m; sourceTree = "<group>"; };
+		8596911915064B48001CD82E /* NSCEMovieService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEMovieService.h; sourceTree = "<group>"; };
+		8596911A15064B48001CD82E /* NSCEMovieService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEMovieService.m; sourceTree = "<group>"; };
+		8596911C15064B59001CD82E /* NSCEMockMovieService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEMockMovieService.h; sourceTree = "<group>"; };
+		8596911D15064B59001CD82E /* NSCEMockMovieService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEMockMovieService.m; sourceTree = "<group>"; };
+		8596912315064BBA001CD82E /* NSCEMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEMovie.h; sourceTree = "<group>"; };
+		8596912415064BBA001CD82E /* NSCEMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEMovie.m; sourceTree = "<group>"; };
+		8596912615064BCF001CD82E /* NSCEGenre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEGenre.h; sourceTree = "<group>"; };
+		8596912715064BD0001CD82E /* NSCEGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEGenre.m; sourceTree = "<group>"; };
+		8596912915064BE0001CD82E /* NSCEActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEActor.h; sourceTree = "<group>"; };
+		8596912A15064BE0001CD82E /* NSCEActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEActor.m; sourceTree = "<group>"; };
+		8596912C15064C4C001CD82E /* NSCEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +100,14 @@
 		859690FF15064B12001CD82E /* MVCVCExample */ = {
 			isa = PBXGroup;
 			children = (
+				8596912215064B92001CD82E /* View Controller */,
+				8596912115064B8D001CD82E /* Controller */,
+				8596912015064B87001CD82E /* View */,
+				8596911F15064B7E001CD82E /* Model */,
 				8596910815064B12001CD82E /* NSCEAppDelegate.h */,
 				8596910915064B12001CD82E /* NSCEAppDelegate.m */,
+				851CB8071506511F001A59F7 /* SynthesizeSingletonARC.h */,
 				8596910B15064B12001CD82E /* MainStoryboard.storyboard */,
-				8596910E15064B12001CD82E /* NSCEMasterViewController.h */,
-				8596910F15064B12001CD82E /* NSCEMasterViewController.m */,
-				8596911115064B12001CD82E /* NSCEDetailViewController.h */,
-				8596911215064B12001CD82E /* NSCEDetailViewController.m */,
 				8596910015064B12001CD82E /* Supporting Files */,
 			);
 			path = MVCVCExample;
@@ -101,6 +122,51 @@
 				8596910715064B12001CD82E /* MVCVCExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8596911F15064B7E001CD82E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8596912C15064C4C001CD82E /* NSCEModel.h */,
+				8596912315064BBA001CD82E /* NSCEMovie.h */,
+				8596912415064BBA001CD82E /* NSCEMovie.m */,
+				8596912615064BCF001CD82E /* NSCEGenre.h */,
+				8596912715064BD0001CD82E /* NSCEGenre.m */,
+				8596912915064BE0001CD82E /* NSCEActor.h */,
+				8596912A15064BE0001CD82E /* NSCEActor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8596912015064B87001CD82E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8596912115064B8D001CD82E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8596911915064B48001CD82E /* NSCEMovieService.h */,
+				8596911A15064B48001CD82E /* NSCEMovieService.m */,
+				8596911C15064B59001CD82E /* NSCEMockMovieService.h */,
+				8596911D15064B59001CD82E /* NSCEMockMovieService.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8596912215064B92001CD82E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8596910E15064B12001CD82E /* NSCEMasterViewController.h */,
+				8596910F15064B12001CD82E /* NSCEMasterViewController.m */,
+				8596911115064B12001CD82E /* NSCEDetailViewController.h */,
+				8596911215064B12001CD82E /* NSCEDetailViewController.m */,
+				851CB80815065B51001A59F7 /* NSCEGenreTableViewControllerViewController.h */,
+				851CB80915065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m */,
+			);
+			name = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +237,12 @@
 				8596910A15064B12001CD82E /* NSCEAppDelegate.m in Sources */,
 				8596911015064B12001CD82E /* NSCEMasterViewController.m in Sources */,
 				8596911315064B12001CD82E /* NSCEDetailViewController.m in Sources */,
+				8596911B15064B48001CD82E /* NSCEMovieService.m in Sources */,
+				8596911E15064B59001CD82E /* NSCEMockMovieService.m in Sources */,
+				8596912515064BBA001CD82E /* NSCEMovie.m in Sources */,
+				8596912815064BD0001CD82E /* NSCEGenre.m in Sources */,
+				8596912B15064BE0001CD82E /* NSCEActor.m in Sources */,
+				851CB80A15065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +354,7 @@
 				8596911815064B12001CD82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
