@@ -3,15 +3,18 @@
 //  MVCVCExample
 //
 //  Created by Niklas Saers on 3/6/12.
-//  Copyright (c) 2012 Thorvalddata. All rights reserved.
+//  Copyright (c) 2012 NSCoder Night, Esbjerg. No rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "NSCEModel.h"
 
-@interface NSCEDetailViewController : UIViewController
+@interface NSCEDetailViewController : UIViewController {
+    
+    __weak IBOutlet UIWebView *webview;
+}
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) NSCEMovie *movie;
 
-@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end

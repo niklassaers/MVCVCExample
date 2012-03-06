@@ -13,8 +13,12 @@
     
 }
 
++ (NSCEMovieService*) sharedNSCEMovieService;
+
 - (NSSet*) genres;
 - (NSSet*) moviesForGenre:(NSCEGenre*) genre;
 - (NSSet*) actorsForMovie:(NSCEMovie*) movie;
+
+
 
 @end

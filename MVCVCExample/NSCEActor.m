@@ -14,6 +14,15 @@
 @synthesize lastname;
 @synthesize movies;
 
+- (id) init {
+    self = [super init];
+    if(self != nil) {
+        self.movies = [NSMutableSet set];
+    }
+    
+    return self;
+}
+
 + actorWithFirstname:(NSString*)firstname lastname:(NSString*) lastname {
     NSCEActor *actor = [[NSCEActor alloc] init];
     actor.firstname = firstname;

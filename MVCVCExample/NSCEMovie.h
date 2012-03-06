@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSCEModel.h"
 
 @interface NSCEMovie : NSObject
 

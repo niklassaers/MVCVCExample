@@ -9,8 +9,8 @@
 #ifndef MVCVCExample_NSCEModel_h
 #define MVCVCExample_NSCEModel_h
 
+#import "NSCEGenre.h"
 #import "NSCEMovie.h"
 #import "NSCEActor.h"
-#import "NSCEGenre.h"
 
 #endif

@@ -10,4 +10,6 @@
 
 @interface NSCEMockMovieService : NSCEMovieService
 
++ (NSCEMockMovieService*) sharedNSCEMockMovieService;
+
 @end

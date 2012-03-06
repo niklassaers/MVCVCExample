@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSString *firstname;
 @property (nonatomic, strong) NSString *lastname;
-@property (nonatomic, strong) NSSet *movies;
+@property (nonatomic, strong) NSMutableSet *movies;
 
 + actorWithFirstname:(NSString*)firstname lastname:(NSString*) lastname;
 

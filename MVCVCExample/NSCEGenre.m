@@ -13,6 +13,15 @@
 @synthesize title;
 @synthesize movies;
 
+- (id) init {
+    self = [super init];
+    if(self != nil) {
+        self.movies = [NSMutableSet set];
+    }
+    
+    return self;
+}
+
 + (NSCEGenre*) genreWithTitle:(NSString*) title {
     NSCEGenre *genre = [[NSCEGenre alloc] init];
     genre.title = title;
