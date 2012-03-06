@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		859690FA15064B12001CD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690F915064B12001CD82E /* UIKit.framework */; };
+		859690FC15064B12001CD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690FB15064B12001CD82E /* Foundation.framework */; };
+		859690FE15064B12001CD82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690FD15064B12001CD82E /* CoreGraphics.framework */; };
+		8596910415064B12001CD82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8596910215064B12001CD82E /* InfoPlist.strings */; };
+		8596910615064B12001CD82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596910515064B12001CD82E /* main.m */; };
+		8596910A15064B12001CD82E /* NSCEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596910915064B12001CD82E /* NSCEAppDelegate.m */; };
+		8596910D15064B12001CD82E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8596910B15064B12001CD82E /* MainStoryboard.storyboard */; };
+		8596911015064B12001CD82E /* NSCEMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596910F15064B12001CD82E /* NSCEMasterViewController.m */; };
+		8596911315064B12001CD82E /* NSCEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596911215064B12001CD82E /* NSCEDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		859690F515064B12001CD82E /* MVCVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		859690F915064B12001CD82E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		859690FB15064B12001CD82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		859690FD15064B12001CD82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8596910115064B12001CD82E /* MVCVCExample-Info.plist */ = {isa = PBXFileReference; path = "MVCVCExample-Info.plist"; sourceTree = "<group>"; };
+		8596910315064B12001CD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8596910515064B12001CD82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8596910715064B12001CD82E /* MVCVCExample-Prefix.pch */ = {isa = PBXFileReference; path = "MVCVCExample-Prefix.pch"; sourceTree = "<group>"; };
+		8596910815064B12001CD82E /* NSCEAppDelegate.h */ = {isa = PBXFileReference; path = NSCEAppDelegate.h; sourceTree = "<group>"; };
+		8596910915064B12001CD82E /* NSCEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCEAppDelegate.m; sourceTree = "<group>"; };
+		8596910C15064B12001CD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8596910E15064B12001CD82E /* NSCEMasterViewController.h */ = {isa = PBXFileReference; path = NSCEMasterViewController.h; sourceTree = "<group>"; };
+		8596910F15064B12001CD82E /* NSCEMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCEMasterViewController.m; sourceTree = "<group>"; };
+		8596911115064B12001CD82E /* NSCEDetailViewController.h */ = {isa = PBXFileReference; path = NSCEDetailViewController.h; sourceTree = "<group>"; };
+		8596911215064B12001CD82E /* NSCEDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCEDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		859690F215064B12001CD82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859690FA15064B12001CD82E /* UIKit.framework in Frameworks */,
+				859690FC15064B12001CD82E /* Foundation.framework in Frameworks */,
+				859690FE15064B12001CD82E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		859690EA15064B12001CD82E = {
+			isa = PBXGroup;
+			children = (
+				859690FF15064B12001CD82E /* MVCVCExample */,
+				859690F815064B12001CD82E /* Frameworks */,
+				859690F615064B12001CD82E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		859690F615064B12001CD82E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				859690F515064B12001CD82E /* MVCVCExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		859690F815064B12001CD82E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859690F915064B12001CD82E /* UIKit.framework */,
+				859690FB15064B12001CD82E /* Foundation.framework */,
+				859690FD15064B12001CD82E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		859690FF15064B12001CD82E /* MVCVCExample */ = {
+			isa = PBXGroup;
+			children = (
+				8596910815064B12001CD82E /* NSCEAppDelegate.h */,
+				8596910915064B12001CD82E /* NSCEAppDelegate.m */,
+				8596910B15064B12001CD82E /* MainStoryboard.storyboard */,
+				8596910E15064B12001CD82E /* NSCEMasterViewController.h */,
+				8596910F15064B12001CD82E /* NSCEMasterViewController.m */,
+				8596911115064B12001CD82E /* NSCEDetailViewController.h */,
+				8596911215064B12001CD82E /* NSCEDetailViewController.m */,
+				8596910015064B12001CD82E /* Supporting Files */,
+			);
+			path = MVCVCExample;
+			sourceTree = "<group>";
+		};
+		8596910015064B12001CD82E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8596910115064B12001CD82E /* MVCVCExample-Info.plist */,
+				8596910215064B12001CD82E /* InfoPlist.strings */,
+				8596910515064B12001CD82E /* main.m */,
+				8596910715064B12001CD82E /* MVCVCExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		859690F415064B12001CD82E /* MVCVCExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8596911615064B12001CD82E /* Build configuration list for PBXNativeTarget "MVCVCExample" */;
+			buildPhases = (
+				859690F115064B12001CD82E /* Sources */,
+				859690F215064B12001CD82E /* Frameworks */,
+				859690F315064B12001CD82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCVCExample;
+			productName = MVCVCExample;
+			productReference = 859690F515064B12001CD82E /* MVCVCExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		859690EC15064B12001CD82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NSCE;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Thorvalddata;
+			};
+			buildConfigurationList = 859690EF15064B12001CD82E /* Build configuration list for PBXProject "MVCVCExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 859690EA15064B12001CD82E;
+			productRefGroup = 859690F615064B12001CD82E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				859690F415064B12001CD82E /* MVCVCExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		859690F315064B12001CD82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8596910415064B12001CD82E /* InfoPlist.strings in Resources */,
+				8596910D15064B12001CD82E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		859690F115064B12001CD82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8596910615064B12001CD82E /* main.m in Sources */,
+				8596910A15064B12001CD82E /* NSCEAppDelegate.m in Sources */,
+				8596911015064B12001CD82E /* NSCEMasterViewController.m in Sources */,
+				8596911315064B12001CD82E /* NSCEDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8596910215064B12001CD82E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8596910315064B12001CD82E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8596910B15064B12001CD82E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8596910C15064B12001CD82E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8596911415064B12001CD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8596911515064B12001CD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8596911715064B12001CD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCVCExample/MVCVCExample-Prefix.pch";
+				INFOPLIST_FILE = "MVCVCExample/MVCVCExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8596911815064B12001CD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCVCExample/MVCVCExample-Prefix.pch";
+				INFOPLIST_FILE = "MVCVCExample/MVCVCExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		859690EF15064B12001CD82E /* Build configuration list for PBXProject "MVCVCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8596911415064B12001CD82E /* Debug */,
+				8596911515064B12001CD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8596911615064B12001CD82E /* Build configuration list for PBXNativeTarget "MVCVCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8596911715064B12001CD82E /* Debug */,
+				8596911815064B12001CD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 859690EC15064B12001CD82E /* Project object */;
+}
