@@ -55,7 +55,7 @@
 		8596912915064BE0001CD82E /* NSCEActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEActor.h; sourceTree = "<group>"; };
 		8596912A15064BE0001CD82E /* NSCEActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEActor.m; sourceTree = "<group>"; };
 		8596912C15064C4C001CD82E /* NSCEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEModel.h; sourceTree = "<group>"; };
-		85C6E29217325B9D0020EEFC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85C6E29217325B9D0020EEFC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,6 @@
 		859690EA15064B12001CD82E = {
 			isa = PBXGroup;
 			children = (
-				85C6E29217325B9D0020EEFC /* Default-568h@2x.png */,
 				859690FF15064B12001CD82E /* MVCVCExample */,
 				859690F815064B12001CD82E /* Frameworks */,
 				859690F615064B12001CD82E /* Products */,
@@ -103,13 +102,13 @@
 		859690FF15064B12001CD82E /* MVCVCExample */ = {
 			isa = PBXGroup;
 			children = (
+				85C6E29417325D800020EEFC /* Resources */,
 				8596912215064B92001CD82E /* View Controller */,
 				8596912115064B8D001CD82E /* Controller */,
 				8596912015064B87001CD82E /* View */,
 				8596911F15064B7E001CD82E /* Model */,
 				8596910815064B12001CD82E /* NSCEAppDelegate.h */,
 				8596910915064B12001CD82E /* NSCEAppDelegate.m */,
-				851CB8071506511F001A59F7 /* SynthesizeSingletonARC.h */,
 				8596910B15064B12001CD82E /* MainStoryboard.storyboard */,
 				8596910015064B12001CD82E /* Supporting Files */,
 			);
@@ -120,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				8596910115064B12001CD82E /* MVCVCExample-Info.plist */,
+				851CB8071506511F001A59F7 /* SynthesizeSingletonARC.h */,
 				8596910215064B12001CD82E /* InfoPlist.strings */,
 				8596910515064B12001CD82E /* main.m */,
 				8596910715064B12001CD82E /* MVCVCExample-Prefix.pch */,
@@ -170,6 +170,14 @@
 				851CB80915065B51001A59F7 /* NSCEGenreTableViewController.m */,
 			);
 			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		85C6E29417325D800020EEFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85C6E29217325B9D0020EEFC /* Default-568h@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
