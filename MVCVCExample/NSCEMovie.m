@@ -10,12 +10,6 @@
 
 @implementation NSCEMovie
 
-@synthesize actors;
-@synthesize year;
-@synthesize imdbLink;
-@synthesize title;
-@synthesize genre;
-
 + (NSCEMovie*) movie:(NSString*)title year:(int)year actors:(NSSet*)actors imdb:(NSURL*)link {
     NSCEMovie *movie = [[NSCEMovie alloc] init];
     movie.title = title;

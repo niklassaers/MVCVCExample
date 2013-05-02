@@ -19,8 +19,6 @@
     NSArray *cachedMovies;
 }
 
-@synthesize genre;
-
 - (void)awakeFromNib
 {
     [super awakeFromNib];
@@ -53,7 +51,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if(cachedMovies == nil)
-        cachedMovies = [[[NSCEMockMovieService sharedNSCEMockMovieService] moviesForGenre:self.genre] sortedArrayUsingDescriptors:[NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"title" ascending:YES]]];
+        cachedMovies = [[[NSCEMockMovieService sharedNSCEMockMovieService] moviesForGenre:self.genre] sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"title" ascending:YES]]];
     return [cachedMovies count];
 }
 
@@ -61,7 +59,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MovieCell"];
 
-    NSCEMovie *movie = [cachedMovies objectAtIndex:indexPath.row];
+    NSCEMovie *movie = cachedMovies[indexPath.row];
     cell.textLabel.text = [movie title];
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", movie.year];
     return cell;
@@ -71,7 +69,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSCEMovie *movie = [cachedMovies objectAtIndex:indexPath.row];
+        NSCEMovie *movie = cachedMovies[indexPath.row];
         [[segue destinationViewController] setMovie:movie];
     }
 }

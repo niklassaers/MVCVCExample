@@ -10,10 +10,6 @@
 
 @implementation NSCEActor
 
-@synthesize firstname;
-@synthesize lastname;
-@synthesize movies;
-
 - (id) init {
     self = [super init];
     if(self != nil) {

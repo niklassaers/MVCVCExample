@@ -14,8 +14,6 @@
 
 @implementation NSCEDetailViewController
 
-@synthesize movie = _movie;
-
 #pragma mark - Managing the detail item
 
 - (void)setMovie:(id)newMovie

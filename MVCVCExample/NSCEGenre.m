@@ -10,9 +10,6 @@
 
 @implementation NSCEGenre
 
-@synthesize title;
-@synthesize movies;
-
 - (id) init {
     self = [super init];
     if(self != nil) {

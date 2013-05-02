@@ -52,7 +52,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if(cachedGenres == nil)
-        cachedGenres = [[[NSCEMockMovieService sharedNSCEMockMovieService] genres] sortedArrayUsingDescriptors:[NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"title" ascending:YES]]];
+        cachedGenres = [[[NSCEMockMovieService sharedNSCEMockMovieService] genres] sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"title" ascending:YES]]];
     return [[[NSCEMockMovieService sharedNSCEMockMovieService] genres] count];
 }
 
@@ -61,7 +61,7 @@
     static NSString *CellIdentifier = @"GenreCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 
-    NSCEGenre *genre = [cachedGenres objectAtIndex:indexPath.row];
+    NSCEGenre *genre = cachedGenres[indexPath.row];
     cell.textLabel.text = genre.title;
 
     int count = [[[NSCEMockMovieService sharedNSCEMockMovieService] moviesForGenre:genre] count];
@@ -84,7 +84,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showMovies"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSCEGenre *genre = [cachedGenres objectAtIndex:indexPath.row];
+        NSCEGenre *genre = cachedGenres[indexPath.row];
         [[segue destinationViewController] setGenre:genre];
     }
 }
