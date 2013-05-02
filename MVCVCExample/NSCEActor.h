@@ -10,8 +10,8 @@
 
 @interface NSCEActor : NSObject
 
-@property (nonatomic, strong) NSString *firstname;
-@property (nonatomic, strong) NSString *lastname;
+@property (nonatomic, copy) NSString *firstname;
+@property (nonatomic, copy) NSString *lastname;
 @property (nonatomic, strong) NSMutableSet *movies;
 
 + actorWithFirstname:(NSString*)firstname lastname:(NSString*) lastname;

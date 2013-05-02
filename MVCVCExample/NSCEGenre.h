@@ -12,7 +12,7 @@
     
 }
 
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, copy) NSString *title;
 @property (nonatomic, strong) NSMutableSet *movies;
 
 + (NSCEGenre*) genreWithTitle:(NSString*) title;

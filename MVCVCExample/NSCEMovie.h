@@ -11,9 +11,9 @@
 
 @interface NSCEMovie : NSObject
 
-@property (strong, nonatomic) NSString *title;
+@property (copy, nonatomic) NSString *title;
 @property (nonatomic) int year;
-@property (strong, nonatomic) NSURL *imdbLink;
+@property (copy, nonatomic) NSURL *imdbLink;
 @property (strong, nonatomic) NSSet *actors;
 @property (strong, nonatomic) NSCEGenre *genre;
 
