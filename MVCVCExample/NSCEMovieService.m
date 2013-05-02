@@ -13,17 +13,17 @@
 SYNTHESIZE_SINGLETON_FOR_CLASS_ARC(NSCEMovieService)
 
 - (NSSet*) genres {
-    NSLog(@"%@: Whoops, forgot to implement this function", __PRETTY_FUNCTION__);
+    NSLog(@"%s: Whoops, forgot to implement this function", __PRETTY_FUNCTION__);
     return nil;
 }
 
 - (NSSet*) moviesForGenre:(NSCEGenre*) genre {
-    NSLog(@"%@: Whoops, forgot to implement this function", __PRETTY_FUNCTION__);
+    NSLog(@"%s: Whoops, forgot to implement this function", __PRETTY_FUNCTION__);
     return nil;
 }
 
 - (NSSet*) actorsForMovie:(NSCEMovie*) movie {
-    NSLog(@"%@: Whoops, forgot to implement this function", __PRETTY_FUNCTION__);
+    NSLog(@"%s: Whoops, forgot to implement this function", __PRETTY_FUNCTION__);
     return nil;
 }
 

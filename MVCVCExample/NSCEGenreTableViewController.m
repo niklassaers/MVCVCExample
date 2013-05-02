@@ -1,19 +1,19 @@
 //
-//  NSCEGenreTableViewControllerViewController.m
+//  NSCEGenreTableViewController.m
 //  MVCVCExample
 //
 //  Created by Niklas Saers on 3/6/12.
 //  Copyright (c) 2012 NSCoder Night, Esbjerg. No rights reserved.
 //
 
-#import "NSCEGenreTableViewControllerViewController.h"
+#import "NSCEGenreTableViewController.h"
 #import "NSCEMockMovieService.h"
 
-@interface NSCEGenreTableViewControllerViewController ()
+@interface NSCEGenreTableViewController ()
 
 @end
 
-@implementation NSCEGenreTableViewControllerViewController {
+@implementation NSCEGenreTableViewController {
     NSArray *cachedGenres;
 }
 

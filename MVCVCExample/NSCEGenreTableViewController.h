@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSCEGenreTableViewControllerViewController : UITableViewController
+@interface NSCEGenreTableViewController : UITableViewController
 
 @end

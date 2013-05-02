@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		851CB80A15065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851CB80915065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m */; };
+		851CB80A15065B51001A59F7 /* NSCEGenreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851CB80915065B51001A59F7 /* NSCEGenreTableViewController.m */; };
 		859690FA15064B12001CD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690F915064B12001CD82E /* UIKit.framework */; };
 		859690FC15064B12001CD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690FB15064B12001CD82E /* Foundation.framework */; };
 		859690FE15064B12001CD82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859690FD15064B12001CD82E /* CoreGraphics.framework */; };
@@ -22,12 +22,13 @@
 		8596912515064BBA001CD82E /* NSCEMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596912415064BBA001CD82E /* NSCEMovie.m */; };
 		8596912815064BD0001CD82E /* NSCEGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596912715064BD0001CD82E /* NSCEGenre.m */; };
 		8596912B15064BE0001CD82E /* NSCEActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596912A15064BE0001CD82E /* NSCEActor.m */; };
+		85C6E29317325B9D0020EEFC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C6E29217325B9D0020EEFC /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		851CB8071506511F001A59F7 /* SynthesizeSingletonARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingletonARC.h; sourceTree = "<group>"; };
-		851CB80815065B51001A59F7 /* NSCEGenreTableViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEGenreTableViewControllerViewController.h; sourceTree = "<group>"; };
-		851CB80915065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEGenreTableViewControllerViewController.m; sourceTree = "<group>"; };
+		851CB80815065B51001A59F7 /* NSCEGenreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEGenreTableViewController.h; sourceTree = "<group>"; };
+		851CB80915065B51001A59F7 /* NSCEGenreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEGenreTableViewController.m; sourceTree = "<group>"; };
 		859690F515064B12001CD82E /* MVCVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859690F915064B12001CD82E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		859690FB15064B12001CD82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +55,7 @@
 		8596912915064BE0001CD82E /* NSCEActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEActor.h; sourceTree = "<group>"; };
 		8596912A15064BE0001CD82E /* NSCEActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEActor.m; sourceTree = "<group>"; };
 		8596912C15064C4C001CD82E /* NSCEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEModel.h; sourceTree = "<group>"; };
+		85C6E29217325B9D0020EEFC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		859690EA15064B12001CD82E = {
 			isa = PBXGroup;
 			children = (
+				85C6E29217325B9D0020EEFC /* Default-568h@2x.png */,
 				859690FF15064B12001CD82E /* MVCVCExample */,
 				859690F815064B12001CD82E /* Frameworks */,
 				859690F615064B12001CD82E /* Products */,
@@ -163,8 +166,8 @@
 				8596910F15064B12001CD82E /* NSCEMasterViewController.m */,
 				8596911115064B12001CD82E /* NSCEDetailViewController.h */,
 				8596911215064B12001CD82E /* NSCEDetailViewController.m */,
-				851CB80815065B51001A59F7 /* NSCEGenreTableViewControllerViewController.h */,
-				851CB80915065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m */,
+				851CB80815065B51001A59F7 /* NSCEGenreTableViewController.h */,
+				851CB80915065B51001A59F7 /* NSCEGenreTableViewController.m */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				8596910415064B12001CD82E /* InfoPlist.strings in Resources */,
 				8596910D15064B12001CD82E /* MainStoryboard.storyboard in Resources */,
+				85C6E29317325B9D0020EEFC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +246,7 @@
 				8596912515064BBA001CD82E /* NSCEMovie.m in Sources */,
 				8596912815064BD0001CD82E /* NSCEGenre.m in Sources */,
 				8596912B15064BE0001CD82E /* NSCEActor.m in Sources */,
-				851CB80A15065B51001A59F7 /* NSCEGenreTableViewControllerViewController.m in Sources */,
+				851CB80A15065B51001A59F7 /* NSCEGenreTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +292,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -306,7 +310,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
